@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         @for (book of books; track book.bookId) {
-            <tr>
+            <tr (click)="clicked(book)">
                 <td>{{book.name}}</td>
                 <td>{{book.isActive | isActive}}</td>
             </tr>
@@ -20,6 +20,13 @@
         
     </tbody>
 </table>
+
+<h1>Selected Book Details</h1>
+<td>{{selectedBook().bookId}}</td>
+<td>{{selectedBook().name}}</td>
+<td>{{selectedBook().isActive | isActive}}</td>
+<td>{{selectedBook().description}}</td>
+<td>{{selectedBook().author?.name}}</td>
 
 
 

@@ -1,7 +1,13 @@
 export class Book {
     bookId: Number | undefined
     name: string | undefined
-    author: any
+    author: Author | undefined
     description: string | undefined
-    isActive: any | undefined
+    isActive: boolean | undefined
+}
+
+export class Author{
+    authorId: Number | undefined
+    name: string | undefined
+    books : any
 }

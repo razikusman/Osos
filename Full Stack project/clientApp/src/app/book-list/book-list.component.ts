@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { BookService } from '../book.service';
 import { Book } from '../book';
 
@@ -12,6 +12,14 @@ export class BookListComponent {
   Active : boolean = false;
   books : Book[] = []
   ColumnsName: string[] = [];
+
+  selectedBook = signal<Book>({
+    bookId: undefined,
+    name: undefined,
+    author: undefined,
+    description: undefined,
+    isActive: undefined
+  });
   /**
    *
    */
@@ -21,5 +29,9 @@ export class BookListComponent {
       this.books = [...data.data]
     });
 
+  }
+
+  clicked(book : Book){
+    this.selectedBook.set(book);
   }
 }
