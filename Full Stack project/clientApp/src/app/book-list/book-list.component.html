@@ -1,0 +1,27 @@
+<!-- <p>book-list works!</p>
+{{Active | isActive}} -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (book of books; track book.bookId) {
+            <tr>
+                <td>{{book.name}}</td>
+                <td>{{book.isActive | isActive}}</td>
+            </tr>
+          } @empty {
+            Empty list of books
+          }
+        
+    </tbody>
+</table>
+
+
+
+  
+  
