@@ -1,0 +1,15 @@
+D:\Usman\Osos\StrigTransForm\bin\Debug\net6.0\StrigTransForm.exe
+D:\Usman\Osos\StrigTransForm\bin\Debug\net6.0\StrigTransForm.deps.json
+D:\Usman\Osos\StrigTransForm\bin\Debug\net6.0\StrigTransForm.runtimeconfig.json
+D:\Usman\Osos\StrigTransForm\bin\Debug\net6.0\StrigTransForm.dll
+D:\Usman\Osos\StrigTransForm\bin\Debug\net6.0\StrigTransForm.pdb
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.csproj.AssemblyReference.cache
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.AssemblyInfoInputs.cache
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.AssemblyInfo.cs
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.csproj.CoreCompileInputs.cache
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.dll
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\refint\StrigTransForm.dll
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.pdb
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\StrigTransForm.genruntimeconfig.cache
+D:\Usman\Osos\StrigTransForm\obj\Debug\net6.0\ref\StrigTransForm.dll

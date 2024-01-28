@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wnyq68nlIP8KYxG8gjdCnnbWWPFfLTMZDw2SBBdJqD77cABZBUIwei+8g6oNhsTWgeoJiHF1QKprCZFI1vkxLQ==",
+  "success": true,
+  "projectFilePath": "D:\\Usman\\Osos\\TransFormStringTes\\TransFormStringTes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit\\2.6.6\\xunit.2.6.6.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.analyzers\\1.10.0\\xunit.analyzers.1.10.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.assert\\2.6.6\\xunit.assert.2.6.6.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.core\\2.6.6\\xunit.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.extensibility.core\\2.6.6\\xunit.extensibility.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.extensibility.execution\\2.6.6\\xunit.extensibility.execution.2.6.6.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.6\\xunit.runner.visualstudio.2.5.6.nupkg.sha512"
+  ],
+  "logs": []
+}
