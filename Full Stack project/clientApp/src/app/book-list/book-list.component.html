@@ -1,7 +1,7 @@
 <!-- <p>book-list works!</p>
 {{Active | isActive}} -->
 
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>Name</th>
@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         @for (book of books; track book.bookId) {
-            <tr (click)="clicked(book)">
+            <tr (click)="clicked(book)" >
                 <td>{{book.name}}</td>
                 <td>{{book.isActive | isActive}}</td>
             </tr>
@@ -19,15 +19,70 @@
           }
         
     </tbody>
-</table>
+</table> -->
 
-<h1>Selected Book Details</h1>
-<td>{{selectedBook().bookId}}</td>
-<td>{{selectedBook().name}}</td>
-<td>{{selectedBook().isActive | isActive}}</td>
-<td>{{selectedBook().description}}</td>
-<td>{{selectedBook().author?.name}}</td>
+<div class="container">
+    @if (!loaded) {
+        <mat-spinner></mat-spinner>
+    }
+    @else(){
+        <mat-table [dataSource]="books" class="mat-elevation-z8">
+    
+        <ng-container matColumnDef="Name">
+          <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+          <mat-cell *matCellDef="let element" > {{element.name}} </mat-cell>
+        </ng-container>
+        
+      
+        <ng-container matColumnDef="Description">
+            <mat-header-cell *matHeaderCellDef> Description </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.description}} </mat-cell>
+        </ng-container>
+      
+        <ng-container matColumnDef="Author">
+          <mat-header-cell *matHeaderCellDef> Author </mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.author?.name}} </mat-cell>
+        </ng-container>
 
+        <ng-container matColumnDef="Status">
+            <mat-header-cell *matHeaderCellDef> Status </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.isActive | isActive}} </mat-cell>
+          </ng-container>
+      
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columns;" (click)="selectedBook.set(row)"></mat-row>
+    
+    </mat-table>
+    
+    <div>
+        @if(selectedBook().name){
+            <h1>Selected Book Details</h1>
+            <!-- <td>{{selectedBook().bookId}}</td>
+            <td>{{selectedBook().name}}</td>
+            <td>{{selectedBook().isActive | isActive}}</td>
+            <td>{{selectedBook().description}}</td>
+            <td>{{selectedBook().author?.name}}</td> -->
+
+                <mat-form-field class="example-full-width">
+                  <mat-label>Name</mat-label>
+                  <input matInput placeholder="Name of the Book" [value]=selectedBook().name>
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Description</mat-label>
+                    <input matInput placeholder="Description About Book" [value]=selectedBook().description>
+                </mat-form-field>
+                
+        }
+        @else {
+            <h1>No Details</h1>
+        }
+    </div>
+    }
+    
+</div>
+  
+  
+  
 
 
   

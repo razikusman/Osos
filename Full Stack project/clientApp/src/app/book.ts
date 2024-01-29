@@ -1,8 +1,8 @@
 export class Book {
     bookId: Number | undefined
-    name: string | undefined
+    name: string = ""
     author: Author | undefined
-    description: string | undefined
+    description: string = ""
     isActive: boolean | undefined
 }
 
